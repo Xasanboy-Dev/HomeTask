@@ -1,0 +1,19 @@
+POST http://localhost:8080/categories
+Content-Type: application/json
+
+{
+    "name": "Game Stations"
+}
+
+###
+
+GET http://localhost:8080/categories
+
+###
+
+PUT http://localhost:8080/categories/2
+Content-Type: application/json
+
+{
+    "name": "TV"
+}
